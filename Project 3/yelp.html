@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- Student Name: Shagun Paul   -->
+<html lang="en">
+  <head>
+    <title> Web Data Management : Project 3 </title>
+    <h2><center> Web Mashup: Display Best Restaurants on a Map </center></h2>
+    <meta charset="utf-8"/>
+    <style>
+       .map{ float: right; height: 600px; width: 500px; }
+       img{
+             position: left; 
+             width: 175px; 
+             height: 129px;
+          }
+  </style>
+    <script type="text/javascript" src="yelp.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApblksKJLiiT8wMyvpXMzEib4CqGuPTWk&libraries=geometry"></script>
+  </head>
+  <body onload="initialize();">
+    <div id="map" class="map"></div>
+    <form style="text-align: left;">
+       <label><b>Search Term: <input type="text" id="search"/></b></label>
+       <input type="button" onclick="sendRequest();" value="Find"/>
+     </form>
+    
+    <div id="output">
+          <div id="query" style="float: right; width: 700px">&nbsp;</div>
+          <div style="clear:both; font-size:2px;"></div>
+    </div>
+  </body>
+</html>
+s
