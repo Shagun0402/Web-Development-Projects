@@ -1,0 +1,56 @@
+******************************************************************************************************************
+CSE 5335 Web Data Management and XML
+Project 7: DOM, Xpath and XSLT to query XML Data
+Name: Shagun Paul
+UTA ID: 1001557958
+******************************************************************************************************************
+				Output for dom.java
+----------------------------------------------------------------------------------
+This Program prints all the MATH courses that are being taught in LIB 204 
+
+Calculus I
+Calculus I
+Calculus II
+Calculus II
+Calculus II
+Introduction to Analysis I
+Complex Analysis
+Advanced Calculus
+Geometry
+Probability
+Topics in Advanced AnalysisII
+Algebraic Structures
+Topics In Computer Theory
+------------------------------------------------------------------------------------
+
+				Output for xpath.java
+------------------------------------------------------------------------------------
+Printing all titles of MATH course at are being taught in LIB 204: 
+
+Calculus I
+Calculus I
+Calculus II
+Calculus II
+Calculus II
+Introduction to Analysis I
+Complex Analysis
+Advanced Calculus
+Geometry
+Probability
+Topics in Advanced AnalysisII
+Algebraic Structures
+Topics In Computer Theory
+
+Printing name of faculty that teaches MATH 412: 
+
+Mayer
+
+Printing all the courses  being taught by Wieting: 
+
+Calculus II
+Introduction to Analysis I
+Introduction to Analysis II
+Geometry
+Probability
+Ornamental Art
+-------------------------------------------------------------------------------------
